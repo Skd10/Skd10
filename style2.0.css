@@ -21,7 +21,8 @@ these make the slideshow work
 */
 #slides{
 	position: relative;
-	height: 450px;
+	height: auto;
+	width: auto;
 	padding: 0px;
 	margin: 0px;
 	list-style-type: none;
