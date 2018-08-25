@@ -21,6 +21,9 @@
 essential styles:
 these make the slideshow work
 */
+img{
+	display: inline-block;
+}
 #slides{
 	position: relative;
 	height: 400px;
