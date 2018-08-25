@@ -23,7 +23,7 @@ these make the slideshow work
 */
 #slides{
 	position: relative;
-	height: auto;
+	height: 400px;
 	width: auto;
 	padding: 0px;
 	margin: 0px;
