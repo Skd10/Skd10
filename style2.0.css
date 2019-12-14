@@ -27,10 +27,11 @@ img{
 }
 #slides{
 	position: relative;
-	height: 200;
+	height: 200px;
 	width: 100%;
 	padding: 0px;
 	margin: 0px;
+	margin-bottom: 32px;
 	list-style-type: none;
 }
 
@@ -97,19 +98,20 @@ just for appearance; change whatever you want
 }
 /*slide show code end*/
 
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: #3333ff;
-      padding: 15px;
-    }
+/* Set black background color, white text and some padding */
+footer {
+	background-color: #555;
+	color: #3333ff;
+	padding: 15px;
+	bottom: 0;
+}
 
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {
-	      height:300;} 
-    }
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+	.sidenav {
+	height: auto;
+	padding: 15px;
+	}
+	.row.content {
+		height:300;} 
+}
